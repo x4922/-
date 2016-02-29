@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按钮按下 -->
+    <item android:state_pressed="true"><shape>
+            <gradient android:angle="270" android:endColor="#b1b0b5" android:startColor="#b1b0b5" />
+            <!-- gardient：按钮背景 startColor:开始颜色 endColor：结束颜色 angle：渐变角度 -->
+            <corners android:radius="0dip" />
+            <!-- 圆角 0为直角 -->
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+            <!-- 内边距 -->
+            <stroke android:width="0.5dip" android:color="#000002" />
+            <!-- 边框 -->
+        </shape></item>
+	<item android:state_hovered="true"><shape>
+            <corners android:radius="0dip" />
+
+            <gradient android:angle="270" android:endColor="#cccdd1" android:startColor="#cccdd1" />
+
+            <stroke android:width="0.5dip" android:color="#000002" />
+
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+	</item>
+	
+	 <item><shape>
+            <corners android:radius="0dip" />
+
+            <gradient android:angle="270" android:endColor="#cccdd1" android:startColor="#cccdd1" />
+
+            <stroke android:width="0.5dip" android:color="#000002" />
+
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape></item>
+	
+</selector>
